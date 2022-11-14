@@ -1,3 +1,4 @@
+import "../Navbar/Navbar.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -44,8 +45,8 @@ function NavBarComponent() {
                 </Navbar.Collapse>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="#"><img src={navIcon1} alt="" /></a>
-                        <a href="#"><img src={navIcon2} alt="" className='git_image' /></a>                        
+                        <a href="https://www.linkedin.com/in/crisdev/" target='blank'><img src={navIcon1} alt="" /></a>
+                        <a href="https://github.com/Cristopxer" target='blank'><img src={navIcon2} alt="" className='git_image' /></a>                        
                     </div>
                     <button className="vvd" onClick={() => console.log('connect')}>Let's connect</button>
                 </span>                
