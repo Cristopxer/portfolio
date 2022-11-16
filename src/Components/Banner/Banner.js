@@ -52,7 +52,7 @@ function Banner() {
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my portfolio</span>
-                        <h1>{`Hey! I'm Cristopher `}<i className="bi bi-star-fill"></i><span className="wrap">{text}</span></h1>
+                        <h1>{`Hey! I'm Cristopher `}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptate inventore itaque animi laborum vel impedit ullam maiores. Beatae inventore officiis saepe repellat tempora libero totam incidunt at doloribus magni</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
