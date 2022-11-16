@@ -1,9 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel'
-import meter1 from '../../Assets/Images/meter1.svg'
-import meter2 from '../../Assets/Images/meter2.svg'
-import meter3 from '../../Assets/Images/meter3.svg'
+import data from '../../Assets/Images/data.png'
+import cloud from '../../Assets/Images/cloud.png'
+import automation from '../../Assets/Images/automation.png'
+import web from '../../Assets/Images/web.png'
 import colorSharp from '../../Assets/Images/color-sharp.png'
 import "react-multi-carousel/lib/styles.css"
 import "./Skills.css"
@@ -30,19 +31,19 @@ function Skills() {
     const skills = [
         {
             skill_name: "Web Development",
-            img: meter1
+            img: web
         },
         {
             skill_name: "Data Science",
-            img: meter2
+            img: data
         },
         {
             skill_name: "Cloud",
-            img: meter3
+            img: cloud
         },
         {
             skill_name: "Automation",
-            img: meter1
+            img: automation
         }
     ]
     return (
@@ -57,7 +58,7 @@ function Skills() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam, nemo impedit nobis vitae consequuntur fugit accusamus quam ab expedita saepe cupiditate officia, consectetur ullam aut voluptas dolor cum voluptates.</p>
                             <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000} className="skill-slider">
                                 {skills.map((skill => (
-                                    <div className="item">
+                                    <div className="item" key={skill.skill_name}>
                                         <img src={skill.img} alt="Skill_image" />
                                         <h5>{skill.skill_name}</h5>
                                     </div>

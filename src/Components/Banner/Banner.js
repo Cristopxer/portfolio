@@ -2,7 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
-import headerImg from '../../Assets/Images/header-img.svg'
+// import headerImg from '../../Assets/Images/header-img.svg'
+import headerImg from '../../Assets/Images/happy-robot.png'
 import "./Banner.css"
 
 function Banner() {
@@ -50,13 +51,13 @@ function Banner() {
         <section className='banner' id='home'>
             <Container>
                 <Row className='align-items-center'>
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={9}>
                         <span className='tagline'>Welcome to my portfolio</span>
                         <h1>{`Hey! I'm Cristopher `}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptate inventore itaque animi laborum vel impedit ullam maiores. Beatae inventore officiis saepe repellat tempora libero totam incidunt at doloribus magni</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={4} md={6} xl={3}>
                         <img src={headerImg} alt="header_image" />
                     </Col>
                 </Row>
