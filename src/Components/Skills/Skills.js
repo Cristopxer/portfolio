@@ -68,7 +68,7 @@ function Skills() {
                     </Col>
                 </Row>
             </Container>
-            <img src={colorSharp} alt="skill_backgroud" className="background-image-left" />
+            {/* <img src={colorSharp} alt="skill_backgroud" className="background-image-left" /> */}
         </section>
     )
 }

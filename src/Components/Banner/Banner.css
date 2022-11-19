@@ -2,6 +2,7 @@
     margin-top: 0;
     padding: 260px 0 100px 0;
     background-image: url('../../Assets/Images/banner-bg.png');
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 0, 0, .9), rgba(0, 0, 0, 0));        
     background-position: top center;
     background-size: cover;    
     background-repeat: no-repeat;
