@@ -79,14 +79,14 @@ function Projects() {
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <Row>
+                  <Row className="scrollable-row">
                     {projects.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <Row>
+                  <Row className="scrollable-row">
                     <CertificateCard />
                   </Row>
                 </Tab.Pane>

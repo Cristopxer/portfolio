@@ -14,7 +14,6 @@ const CertificateCard = () => {
   const [imageSliderField, setImageSliderField] = useState(0);
 
   const handleOpenSlider = (fieldIdx, certificationIdx) => {
-    window.scrollTo(0, 2700);
     setOpenSlider(true);
     setImageSliderField(fieldIdx);
     setImageSlider(certificationIdx);
@@ -83,26 +82,26 @@ const CertificateCard = () => {
             />
           </div>
         </div>
-      )}            
-        {certifications.map((field, fidx) => {
-          return (
-            <div key={fidx} className="mb-4">
-              <h3>{field.field}</h3>
-              <Row>
-                {field.certfications.map((certificate, cidx) => (
-                  <Col sm={6} md={4} key={cidx}>
-                    <img
-                      className="cert-img"
-                      src={certificate.imgUrl}
-                      alt={`Certificate_${certificate.title}`}
-                      onClick={() => handleOpenSlider(fidx, cidx)}
-                    />
-                  </Col>
-                ))}
-              </Row>
-            </div>
-          );
-        })}      
+      )}
+      {certifications.map((field, fidx) => {
+        return (
+          <div key={fidx} className="mb-4">
+            <h3>{field.field}</h3>
+            <Row>
+              {field.certfications.map((certificate, cidx) => (
+                <Col sm={6} md={4} key={cidx}>
+                  <img
+                    className="cert-img"
+                    src={certificate.imgUrl}
+                    alt={`Certificate_${certificate.title}`}
+                    onClick={() => handleOpenSlider(fidx, cidx)}
+                  />
+                </Col>
+              ))}
+            </Row>
+          </div>
+        );
+      })}
     </>
   );
 };
