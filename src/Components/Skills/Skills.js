@@ -5,7 +5,6 @@ import data from '../../Assets/Images/data.png'
 import cloud from '../../Assets/Images/cloud.png'
 import automation from '../../Assets/Images/automation.png'
 import web from '../../Assets/Images/web.png'
-import colorSharp from '../../Assets/Images/color-sharp.png'
 import "react-multi-carousel/lib/styles.css"
 import "./Skills.css"
 
