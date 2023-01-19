@@ -6,7 +6,6 @@ import CertificateCard from "../CertificateCard/CertificateCard";
 import { projects } from "../../Constants";
 
 function Projects() {
-
   return (
     <section className="project" id="projects">
       <Container>
@@ -14,10 +13,10 @@ function Projects() {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              optio alias harum voluptas assumenda molestias, similique quasi
-              maiores sunt, iure fuga ducimus deleniti rerum, reprehenderit sed
-              suscipit. Fugit, et minus.
+              In this space you can take a look at the projects that I have
+              created using different technologies for full-stack web development, some of data
+              analisys and visualization. And also you can take a look at some
+              of my completed courses in different fields.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
