@@ -44,7 +44,7 @@ export const projects = [
   },
   {
     title: "Security Helmet Detection System (Spanish)",
-    description: "A system that provides trustfull detection of a person using the security helment truth a CCTV system with a web app to display the detections.",
+    description: "A system that provides detection with 90%+ of confidence of a person using the security helment truth a CCTV system with a web app to display the detections.",
     technologies: ["OpenCV", "Python", "Java"],
     githubUrl: "https://github.com/Cristopxer/Sistema-deteccion-casco-de-seguridad",
     imgUrl: "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1674099999/projects/3_plp4yb.png",
