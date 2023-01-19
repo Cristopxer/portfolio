@@ -6,7 +6,7 @@ export const projects = [
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     githubUrl: "https://github.com/Cristopxer/bookingAppClient",
     imgUrl:
-      "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1673555560/projects/post2_cjjvju.png",
+      "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1674107872/projects/post2_kf4cs6.png",
   },
   {
     title: "Social App",
