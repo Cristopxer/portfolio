@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2deeb9ea.css",
-    "main.js": "/portfolio/static/js/main.c1b91ec1.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/portfolio/static/js/main.a34a667e.js",
     "static/media/banner-bg.png": "/portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/happy-robot.png": "/portfolio/static/media/happy-robot.499265957c5f612b7224.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -17,14 +16,13 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.7c2b277031fc9aeb24c033ff9332c319.svg",
-    "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "index.html": "/portfolio/index.html",
     "main.2deeb9ea.css.map": "/portfolio/static/css/main.2deeb9ea.css.map",
-    "main.c1b91ec1.js.map": "/portfolio/static/js/main.c1b91ec1.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.a34a667e.js.map": "/portfolio/static/js/main.a34a667e.js.map"
   },
   "entrypoints": [
     "static/css/main.2deeb9ea.css",
-    "static/js/main.c1b91ec1.js"
+    "static/js/main.a34a667e.js"
   ]
 }
