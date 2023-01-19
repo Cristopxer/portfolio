@@ -63,11 +63,8 @@ const CertificateCard = () => {
               onClick={() => handleArrows("l")}
             />
             <img
-              src={
-                certifications[imageSliderField].certfications[imageSlider]
-                  .imgUrl
-              }
-              alt={`cert_${certifications[imageSliderField].certfications[imageSlider].title}`}
+              src={certifications[imageSliderField].certfications[imageSlider]}
+              alt={`cert_${imageSliderField}_${imageSlider}`}
               className="sliderImg"
             />
             <ArrowRightCircleFill
@@ -92,8 +89,8 @@ const CertificateCard = () => {
                 <Col sm={6} md={4} key={cidx}>
                   <img
                     className="cert-img"
-                    src={certificate.imgUrl}
-                    alt={`Certificate_${certificate.title}`}
+                    src={certificate}
+                    alt={`Certificate_${fidx}_${cidx}`}
                     onClick={() => handleOpenSlider(fidx, cidx)}
                   />
                 </Col>

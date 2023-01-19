@@ -1,56 +1,11 @@
 import React from "react";
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
-import projectImg1 from "../../Assets/Images/project-img1.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import "./Projects.css";
 import CertificateCard from "../CertificateCard/CertificateCard";
+import { projects } from "../../Constants";
 
 function Projects() {
-  const projects = [
-    {
-      title: "1st project",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint tempora voluptatibus voluptas voluptatem asperiores. Repellat soluta modi repellendus voluptatem animi et voluptatum excepturi quibusdam reprehenderit nisi a molestias iure placeat, dolorum suscipit? Neque ipsa ducimus harum consequatur iure accusantium facere minima, deleniti obcaecati aliquam aspernatur, cupiditate qui sed vel iusto.",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-    {
-      title: "2st project",
-      description: "xdxdxd",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-    {
-      title: "3st project",
-      description: "xdxdxd",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-    {
-      title: "4st project",
-      description: "xdxdxd",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-    {
-      title: "4st project",
-      description: "xdxdxd",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-    {
-      title: "4st project",
-      description: "xdxdxd",
-      technologies: ["React", "Node.js", "Firebase"],
-      githubUrl: "",
-      imgUrl: projectImg1,
-    },
-  ];
 
   return (
     <section className="project" id="projects">
