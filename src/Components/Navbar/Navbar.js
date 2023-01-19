@@ -31,7 +31,7 @@ function NavBarComponent() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo"/>
+          <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -76,9 +76,13 @@ function NavBarComponent() {
               <img src={navIcon2} alt="" className="git_image" />
             </a>
           </div>
-          <button className="vvd" onClick={() => console.log("connect")}>
-            Let's connect
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1R3IjmwIhtEVGEFHu4I6WdqMyXyfGBHhz/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Download CV</button>
+          </a>
         </span>
       </Container>
     </Navbar>
