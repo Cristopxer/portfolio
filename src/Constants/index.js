@@ -65,7 +65,7 @@ export const projects = [
   },
   {
     title: "Ad Analisys Project",
-    description: "An analysis of the Ad consumption patron for a Ad campaign on US",
+    description: "An analysis of the Ad consumption patron for a Advertisement campaign on US",
     technologies: ["Python", "Pandas", "Numpy", "Plotly"],
     githubUrl: "https://github.com/Cristopxer/MjxAd_Analysis",
     imgUrl: "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1674099998/projects/6_vv1eel.png",
