@@ -76,6 +76,9 @@ export const certifications = [
   {
     field: "Artificial Intelligence",
     certfications: [
+      "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1678987659/certs/Coursera_IBM_AI_Engineerin_dxowdr.png",
+      "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1678987659/certs/Coursera_CNN_pezdqu.jpg",
+      "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1678987659/certs/Coursera_Intro_TF_cqdw2j.png",
       "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1673478336/certs/Coursera_DNN_Pytorch_page-0001_smtsns.jpg",
       "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1673478335/certs/Coursera_AI_for_everyone_page-0001_rrp3c8.jpg",
       "https://res.cloudinary.com/dnxwnoyn1/image/upload/v1673478335/certs/Coursera_Emotion_AI_page-0001_dvitwt.jpg",
